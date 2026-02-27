@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <title>Your favourites</title>
+  <script src="
+https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js
+"></script>
+</head>
+
+<body>
+  <div class="mainContainer">
+    <header>
+      <a id="logo" href="index.html"><img src="Images/JS-logo.png"
+          alt="A cocktail glass containing a pink liquid, with a straw in it and a citrus wedge on the rim. Below the image the blog name 'Countertop Cocktails' is written" /></a>
+      <nav id="header_nav">
+        <ul id="main_navigation">
+          <li>
+            <a href="#"><i class="bi bi-person-fill"></i></a>
+          </li>
+          <li>
+            <a href="favourites.html"><i class="bi bi-heart-fill"></i></a>
+          </li>
+        </ul>
+        <a href="#" id="burger_menu"><i class="bi bi-list"></i></a>
+      </nav>
+    </header>
+    <main id="favouritesHTML">
+      <!-- 8 lines of unique HTML code, the rest is run via CSS and JavaScript -->
+      <h1>Your favourite recipes:</h1>
+      <div id="collectedFavourites">
+        <ul id="favouritesListed"></ul>
+      </div>
+      <h2>The most common ingredients in your favourite recipes:</h2>
+      <div id="chartContainer">
+        <canvas id="ingredientChart"></canvas>
+      </div>
+    </main>
+    <footer>
+      <div id="footer_leftSide">
+        <p>Countertop Cocktails 2025</p>
+        <a href="https://www.thecocktaildb.com/api.php">Cocktail API</a>
+      </div>
+      <div id="footer_rightSide">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </footer>
+  </div>
+  <script src="JavaScript/favourites.js"></script>
+</body>
+
+</html>
