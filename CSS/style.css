@@ -145,10 +145,19 @@ button {
   list-style-type: none;
 }
 
+#resultIngredientsMeasurement li {
+  margin: 6px;
+}
+
 #titleFavouriteFlex {
   display: flex;
-  justify-content: space-around;
-  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#resultTitle {
+  margin: 0;
 }
 
 #resultInstructions {
@@ -157,9 +166,19 @@ button {
 
 .resultBox {
   background-color: rgb(05, 112, 174);
-  padding: 25px 50px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#resultIMG {
+  width: 100%;
+  display: block; /* viktigt */
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 #searchError {
